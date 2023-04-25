@@ -20,3 +20,8 @@ def motrar_hoja(id):
 @app.post("/parte1")
 def insertar(parte: parte1):
     return{"esta en la parte indicada": parte.parte2}
+
+if __name__ == "__main__":
+    import uvicorn
+    uvicorn.run(app, host="0.0.0.0", port=8000)
+   
