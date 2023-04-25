@@ -5,3 +5,6 @@
 <h2>Requirements</h2>
 pip install fastapi<br>
 pip install uvicorn
+
+<h2>ejecution</h2>
+uvicorn main:app --reload
